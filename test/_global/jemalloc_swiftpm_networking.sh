@@ -17,6 +17,9 @@ set -e
 source dev-container-features-test-lib
 
 check "execute command" bash -c "dpkg-query --no-pager -l libjemalloc-dev"
+check "execute command" bash -c "dpkg-query --no-pager -l libcurl4-openssl-dev"
+check "execute command" bash -c "dpkg-query --no-pager -l sqlite3"
+check "execute command" bash -c "dpkg-query --no-pager -l libsqlite3-dev"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

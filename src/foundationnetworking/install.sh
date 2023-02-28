@@ -17,4 +17,4 @@ echo "Activating feature 'jemalloc'"
 # echo "The effective dev container containerUser's home directory is '$_CONTAINER_USER_HOME'"
 
 apt-get update
-apt-get install -y libjemalloc-dev
+apt-get install -y libcurl4-openssl-dev

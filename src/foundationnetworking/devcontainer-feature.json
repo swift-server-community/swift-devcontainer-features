@@ -1,0 +1,11 @@
+{
+    "name": "Foundation Networking",
+    "id": "foundationnetworking",
+    "version": "1.0.0",
+    "description": "A feature that installs the libcurl SSL library ('libcurl4-openssl-dev') to support Foundation Networking.",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

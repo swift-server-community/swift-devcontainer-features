@@ -1,0 +1,11 @@
+{
+    "name": "swiftpm",
+    "id": "swiftpm",
+    "version": "1.0.0",
+    "description": "A feature that installs dependencies needed for building SwiftPM ('sqlite3 & libsqlite3-dev').",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
