@@ -1,5 +1,5 @@
 {
-    "jemalloc": {
+    "jemalloc_swiftpm_networking": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "jemalloc": { },
