@@ -1,5 +1,5 @@
 {
-    "jemalloc": {
+    "foundationnetworking": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "foundationnetworking": {
