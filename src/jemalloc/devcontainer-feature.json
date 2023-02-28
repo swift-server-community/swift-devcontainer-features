@@ -1,0 +1,11 @@
+{
+    "name": "jemalloc",
+    "id": "jemalloc",
+    "version": "1.0.0",
+    "description": "A feature that installs the jemalloc allocator library ('libjemalloc-dev').",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

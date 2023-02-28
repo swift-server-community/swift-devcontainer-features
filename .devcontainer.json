@@ -1,0 +1,31 @@
+{
+    "image": "swift:5.7",
+    "customizations": {
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "lldb.library": "/usr/lib/liblldb.so"
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "sswg.swift-lang"
+                "mads-hartmann.bash-ide-vscode"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": "false",
+            "username": "vscode",
+            "userUid": "1000",
+            "userGid": "1000",
+            "upgradePackages": "false"
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "os-provided",
+            "ppa": "false"
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "swift --version"
+}
