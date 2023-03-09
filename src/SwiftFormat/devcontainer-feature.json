@@ -11,7 +11,7 @@
             ],
             "default": "latest",
             "description": "Version of SwiftFormat"
-        },
+        }
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
