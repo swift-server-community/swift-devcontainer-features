@@ -1,0 +1,10 @@
+{
+    "SwiftFormat-version": {
+        "image": "swift:5.7",
+        "features": {
+            "SwiftFormat": {
+                "version": "0.48.0"
+            }
+        }
+    }
+}
