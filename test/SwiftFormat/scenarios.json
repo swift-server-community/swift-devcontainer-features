@@ -1,0 +1,10 @@
+{
+    "SwiftFormat-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "SwiftFormat": {
+                "version": "0.48.0"
+            }
+        }
+    }
+}
