@@ -23,10 +23,10 @@
 # This test can be run with the following command:
 #
 #    devcontainer features test \
-#                   --features jemalloc \
+#                   --features SwiftFormat \
 #                   --remote-user root  \
 #                   --skip-scenarios    \
-#                   --base-image mcr.microsoft.com/devcontainers/base:ubuntu \
+#                   --base-image swift:5.7 \
 #                   /path/to/this/repo
 
 set -e

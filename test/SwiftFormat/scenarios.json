@@ -1,6 +1,6 @@
 {
     "SwiftFormat-version": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "image": "swift:5.7",
         "features": {
             "SwiftFormat": {
                 "version": "0.48.0"
