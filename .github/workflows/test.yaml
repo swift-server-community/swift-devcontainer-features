@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - jemalloc
+          - SwiftFormat
         baseImage:
           - ubuntu:latest
           - swift:5.7
@@ -33,6 +34,7 @@ jobs:
       matrix:
         features:
           - jemalloc
+          - SwiftFormat
     steps:
       - uses: actions/checkout@v3
 
