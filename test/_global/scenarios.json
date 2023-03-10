@@ -1,9 +1,9 @@
 {
-    "jemalloc_swiftpm_networking": {
+    "jemalloc_sqlite_networking": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "jemalloc": { },
-            "swiftpm": { },
+            "sqlite": { },
             "foundationnetworking": { }
         }
     }
