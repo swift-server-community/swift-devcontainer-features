@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This test file will be executed against an auto-generated devcontainer.json that
-# includes the 'jemalloc' Feature with no options.
+# includes the 'SwiftFormat' Feature with no options.
 #
 # For more information, see: https://github.com/devcontainers/cli/blob/main/docs/features/test.md
 #
@@ -9,7 +9,7 @@
 # {
 #    "image": "<..some-base-image...>",
 #    "features": {
-#      "jemalloc": {}
+#      "SwiftFormat": {}
 #    },
 #    "remoteUser": "root"
 # }
