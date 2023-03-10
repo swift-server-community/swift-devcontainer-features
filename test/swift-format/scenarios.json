@@ -1,0 +1,17 @@
+{
+    "swift-format-default-version": {
+        "image": "swift:5.7",
+        "features": {
+            "swift-format": {
+            }
+        }
+    },
+    "swift-format-explicit-version": {
+        "image": "swift:5.7",
+        "features": {
+            "swift-format": {
+                "version": "0.50700.0"
+            }
+        }
+    }
+}
