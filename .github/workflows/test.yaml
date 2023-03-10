@@ -15,6 +15,7 @@ jobs:
         features:
           - jemalloc
           - SwiftFormat
+          - swift-format
         baseImage:
           - swift:5.7
     steps:
@@ -34,6 +35,7 @@ jobs:
         features:
           - jemalloc
           - SwiftFormat
+          - swift-format
         baseImage:
           - swift:5.7
     steps:
