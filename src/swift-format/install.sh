@@ -40,7 +40,7 @@ getSwiftFormatVersion()
         "5.5") VERSION_FILTER="0.50500.*";;
         "5.6") VERSION_FILTER="0.50600.*";;
         "5.7") VERSION_FILTER="0.50700.*";;
-        *) VERSION_FILTER="main";;
+        *) echo "main"; return;;
     esac
     # get version from git tags
     VERSION=$(git tag -l "$VERSION_FILTER" | tail -n 1)
