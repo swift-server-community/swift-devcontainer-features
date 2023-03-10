@@ -28,7 +28,7 @@ cleanup()
 
 echo "Downloading nicklockwood/SwiftFormat"
 
-#trap cleanup EXIT $?
+trap cleanup EXIT $?
 git clone https://github.com/nicklockwood/SwiftFormat "$TEMPDIR"
 
 cd "$TEMPDIR"
