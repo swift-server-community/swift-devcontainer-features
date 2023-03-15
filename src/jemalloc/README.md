@@ -7,7 +7,7 @@ A feature that installs the jemalloc allocator library ('libjemalloc-dev').
 
 ```json
 "features": {
-    "ghcr.io/heckj/devcontainer-swift-additions/jemalloc:1": {}
+    "ghcr.io/swift-server-community/swift-devcontainer-features/jemalloc:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature that installs the jemalloc allocator library ('libjemalloc-dev').
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/heckj/devcontainer-swift-additions/blob/main/src/jemalloc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/swift-server-community/swift-devcontainer-features/blob/main/src/jemalloc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
