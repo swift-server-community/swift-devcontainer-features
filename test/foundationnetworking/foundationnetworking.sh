@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This test file will be executed against one of the scenarios devcontainer.json test that
-# includes the 'jemalloc' feature.
+# includes the 'foundationnetworking' feature.
 
 set -e
 
