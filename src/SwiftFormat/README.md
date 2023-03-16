@@ -7,7 +7,7 @@ A feature that installs Nick Lockwood's SwiftFormat
 
 ```json
 "features": {
-    "ghcr.io/heckj/devcontainer-swift-additions/SwiftFormat:0": {}
+    "ghcr.io/swift-server-community/swift-devcontainer-features/SwiftFormat:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature that installs Nick Lockwood's SwiftFormat
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/heckj/devcontainer-swift-additions/blob/main/src/SwiftFormat/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/swift-server-community/swift-devcontainer-features/blob/main/src/SwiftFormat/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

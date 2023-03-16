@@ -1,13 +1,13 @@
 
-# swiftpm (swiftpm)
+# sqlite (sqlite)
 
-A feature that installs dependencies needed for building SwiftPM ('sqlite3 & libsqlite3-dev').
+A feature that installs sqlite3 and libsqlite3-dev (needed for building SwiftPM).
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/heckj/devcontainer-swift-additions/swiftpm:1": {}
+    "ghcr.io/swift-server-community/swift-devcontainer-features/sqlite:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature that installs dependencies needed for building SwiftPM ('sqlite3 & lib
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/heckj/devcontainer-swift-additions/blob/main/src/swiftpm/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/swift-server-community/swift-devcontainer-features/blob/main/src/sqlite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

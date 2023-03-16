@@ -7,7 +7,7 @@ A feature that installs the libcurl SSL library ('libcurl4-openssl-dev') to supp
 
 ```json
 "features": {
-    "ghcr.io/heckj/devcontainer-swift-additions/foundationnetworking:1": {}
+    "ghcr.io/swift-server-community/swift-devcontainer-features/foundationnetworking:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature that installs the libcurl SSL library ('libcurl4-openssl-dev') to supp
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/heckj/devcontainer-swift-additions/blob/main/src/foundationnetworking/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/swift-server-community/swift-devcontainer-features/blob/main/src/foundationnetworking/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
