@@ -1,4 +1,6 @@
-When installing swift-format the swift-format feature will choose the version of swift-format based off what version of Swift is installed.
+## Version Selection
+
+The swift-format feature selects the version of swift-format based off what version of Swift you have installed.
 
 | Swift Version | `swift-format` Tags |
 |:--------------|:--------------------|
@@ -9,7 +11,7 @@ When installing swift-format the swift-format feature will choose the version of
 | Swift 5.3     | `0.50300.*`         |
 | Swift 5.2     | `0.50200.*`         |
 
-If you are using a development version of swift it will use the main branch of swift-format.
+If you are using a development version of swift it will use the `main` branch of swift-format.
 
 You can override this by setting the version option when including the feature.
 ```jsonc
