@@ -1,4 +1,4 @@
-# Version Selection
+## Version Selection
 
 The swift-format feature selects the version of swift-format based off what version of Swift you have installed.
 
