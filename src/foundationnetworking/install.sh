@@ -2,7 +2,7 @@
 set -e
 set -x
 
-echo "Activating feature 'jemalloc'"
+echo "Activating feature 'FoundationNetworking'"
 
 # The 'install.sh' entrypoint script is always executed as the root user.
 #
