@@ -8,7 +8,7 @@ Details for each feature can be found in their related READMEs
 - [jemalloc](/src/jemalloc/README.md)
 - [sqlite](/src/sqlite/README.md)
 - [swift-format](/src/swift-format/README.md)
-- [swiftformat](/src/swiftformat/README.md)
+- [SwiftFormat](/src/SwiftFormat/README.md)
 
 Devcontainer features are added to a devcontainer as follows
 
