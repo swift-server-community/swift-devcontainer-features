@@ -1,7 +1,7 @@
 # Dev Container Feature: jemalloc
 
 A feature for a dev container that installs the jemalloc allocator library.
-It's meant as an addition to the swift 5.7 (and later) images to install supporting
+It's meant as an addition to the Swift 5.7 (and later) images to install supporting
 C libraries.
 
 Example using the feature:
@@ -10,9 +10,9 @@ Example using the feature:
 {
     "image": "swift:5.7",
     "features": {
-        "ghcr.io/heckj/devcontainer-swift-additions/jemalloc:1": { },
-        "ghcr.io/heckj/devcontainer-swift-additions/sqlite:1": { },
-        "ghcr.io/heckj/devcontainer-swift-additions/foundationnetworking:1": { }
+        "ghcr.io/swift-server-community/swift-devcontainer-features/jemalloc:1": { },
+        "ghcr.io/swift-server-community/swift-devcontainer-features/sqlite:1": { },
+        "ghcr.io/swift-server-community/swift-devcontainer-features/foundationnetworking:1": { }
     }
 }
 ```
